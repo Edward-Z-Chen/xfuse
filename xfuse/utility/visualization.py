@@ -260,7 +260,7 @@ def visualize_metagenes(
                         # greyscale2colormap(
                         #    balance_colors(scale * x, q=0.0, q_high=0.995)
                         # ),
-                        balance_colors(scale * x, q=0.0, q_high=0.995)
+                        balance_colors(scale * x, q=0.0, q_high=0.995),
                         mask,
                     ),
                 )
