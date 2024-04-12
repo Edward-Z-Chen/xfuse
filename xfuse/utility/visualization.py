@@ -257,9 +257,10 @@ def visualize_metagenes(
                 (
                     n,
                     mask_background(
-                        greyscale2colormap(
-                            balance_colors(scale * x, q=0.0, q_high=0.995)
-                        ),
+                        # greyscale2colormap(
+                        #    balance_colors(scale * x, q=0.0, q_high=0.995)
+                        # ),
+                        balance_colors(scale * x, q=0.0, q_high=0.995)
                         mask,
                     ),
                 )
